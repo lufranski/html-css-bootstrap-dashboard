@@ -66,8 +66,13 @@ a {
             }
 
             
-            a:last-child {
+            .ms_bell_icon {
                 color: #ff8f00;
+                position: relative;
+            }
+
+            .ms_bell_icon:hover {
+                color: #000;
             }
 
             .ms_lg_icon {
@@ -77,6 +82,18 @@ a {
 
             .ms_lg_icon:hover {
                 color: #000;
+            }
+
+            
+            /* ul {
+                display: none;
+                list-style-type: none;
+            } */
+
+
+
+            .ms_bell_icon:hover #ms_dropdown_menu {
+                display: block;
             }
 
 
@@ -102,9 +119,8 @@ a {
         /* DEBUG */
         height: 100%;
         width: 100%;
-        padding-top: 10%;
-        padding-right: 5px;
-        padding-left: 5px;
+        padding-top: 1rem;
+        padding-left: 2rem;
         position: relative;
     }
 
@@ -113,7 +129,7 @@ a {
             /* DEBUG */
             width: 20px;
             height: 5%;
-            margin-left: 35%;
+            /* margin-left: 35%; */
             margin-bottom: 10%;
         }
 
@@ -133,7 +149,7 @@ a {
 
         .icon.bot {
             position: absolute;
-            bottom: 5%;
+            bottom: 1rem;
         }
 
         
@@ -195,12 +211,12 @@ a {
     /* Side Menu */
 
     #ms_side_nav {
-        padding-right: 60px;
-    }
+        padding-left: 0.5rem;
+    }   
 
     .icon {
         min-width: 75px;
-        gap: 0.3em;
+        gap: 0.3rem;
     }
 
     .icon span {
