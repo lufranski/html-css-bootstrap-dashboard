@@ -18,15 +18,19 @@ a {
 
 /* Navbar Rules */
 
-#wrapper > nav {
+.bg-white {
     width: 100%;
-    height: 10vh;
+    /* height: 1vh; */
+    position: fixed;
+    z-index: 999;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
-    nav > .container-fluid {
-        height: 100%;
+    .bg-white > .container {
+        width: 100%;
     }
-
+        
         .ms_row_nav {
             padding-top: 10px;
         }
@@ -71,12 +75,17 @@ a {
                 color: #5b5858;
             }
 
+            .ms_lg_icon:hover {
+                color: #000;
+            }
+
+
 
 /* Container Rules */
 
-.container-fluid {
+#wrapper > .container-fluid {
     height: 90vh;
-    /* margin-top: 10vh; */
+    margin-top: 10vh;
 }
 
     .row {
@@ -89,22 +98,38 @@ a {
     height: 100%;
 }
 
-    .col-1 > nav {
+    #ms_side_nav {
         /* DEBUG */
         height: 100%;
         width: 100%;
         padding-top: 10%;
+        padding-right: 5px;
+        padding-left: 5px;
         position: relative;
     }
 
         .icon {
+            display: flex;
             /* DEBUG */
-            width: 35%;
+            width: 20px;
             height: 5%;
-            border: 1px dashed #fff;
             margin-left: 35%;
             margin-bottom: 10%;
         }
+
+            .icon a {
+                color: #fff;
+            }
+
+            .icon span {
+                display: none;
+                color: #fff;
+            }
+
+            .icon:hover {
+                background-color: #a3a2a2;
+                cursor: pointer;
+            }
 
         .icon.bot {
             position: absolute;
@@ -167,4 +192,22 @@ a {
         justify-content: space-around;
     }
 
+    /* Side Menu */
+
+    #ms_side_nav {
+        padding-right: 60px;
+    }
+
+    .icon {
+        min-width: 75px;
+        gap: 0.3em;
+    }
+
+    .icon span {
+        display: block;
+    }
+
+    .icon.bot {
+        right: 10px;
+    }
 }
