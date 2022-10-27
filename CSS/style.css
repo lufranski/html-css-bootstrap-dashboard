@@ -19,6 +19,18 @@
     height: 10vh;
 }
 
+    .col-1 > div {
+        /* DEBUG */
+        border: 1px dashed grey;
+        height: 80%;
+    }
+
+    .col-10 > div {
+        /* DEBUG */
+        border: 1px dashed grey;
+        height: 80%;
+    }
+
 /* Container Rules */
 
 .container-fluid {
