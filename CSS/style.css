@@ -243,9 +243,7 @@ a {
 
 /* Bot Section Rules */
 
-    #ms_content > .row {
-        /* height: 80vh; */
-    }
+    
 
         [class*="col"] {
             height: 100%;
@@ -261,6 +259,8 @@ a {
         .ms_title {
             border-bottom: 1px solid #a3a2a2;
         }
+
+        
 
 
 /* Responsive */
