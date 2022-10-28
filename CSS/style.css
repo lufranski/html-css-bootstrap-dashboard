@@ -241,16 +241,24 @@ a {
         }
 
         .ms_sec {
-            /* DEBUG */
             border: 1px solid #d8d8d8;
             border-radius: 10px;
-            /* height: 40%; */
         }
 
         .ms_title {
             border-bottom: 1px solid #d8d8d8;
         }
 
+        /* FAQ Section Rules */
+
+        .ms_row {
+            display: flex;
+            justify-content: space-between; 
+        }
+
+        .ms_row.ms_border {
+            border-bottom: 1px solid #d8d8d8;
+        }
         
 
 
