@@ -53,7 +53,7 @@
                     <!-- Dropdown -->
                     <div class="col-1 col-lg-3">
                         
-                        <div class="ms_dropdown">
+                        <div class="ms_right_nav">
                             
                             <a href="#" class="ms_lg_icon">
                                 <i class="fa-solid fa-list"></i>
@@ -67,16 +67,19 @@
                                 <i class="fa-solid fa-ellipsis-vertical"></i>
                             </a>
                             
-                            <a href="#" class="ms_bell_icon">
-                                <i class="fa-solid fa-bell"></i>
-
                                 <!-- Dropdown Menu -->
                                 
-                                <a href="#">
-
-                                
+                            <div class="ms_dropdown">
+                                <button class="ms_dropbtn">
+                                    <i class="fa-solid fa-bell"></i>
+                                </button>
+                                <div class="ms_dropdown_content">
+                                  <a href="#">Link 1</a>
+                                  <a href="#">Link 2</a>
+                                  <a href="#">Link 3</a>
+                                </div>
+                            </div> 
                                     
-                            </a>
                         </div>
 
                     </div>
@@ -88,12 +91,11 @@
 
         </nav>    
         <!-- Container -->
-        <div class="container-fluid ps-0 pe-0">
+        <div id="ms_container_bottom">
 
-            <div class="row g-0">
 
                 <!-- Side Menu -->
-                <div class="col-1 bg-dark">
+                <div id="ms_side_menu">
 
                     <!-- Side Nav -->
                     <nav id="ms_side_nav">
@@ -143,10 +145,58 @@
                 </div>
                 
                 <!-- Main Content -->
-                <div class="col">
+                <div id="ms_content">
                     
                     <!-- Top Section -->
-                    <div class="bg-primary" id="ms_top_sec"></div>
+                    <div class="bg-primary" id="ms_top_sec">
+
+                        <div class="ms_top_content">
+                            
+                            <div class="ms_top_row">
+                                <h3>Boolean</h3>
+
+                                <div class="ms_label">
+                                    Piano blaze
+                                </div>    
+                            </div>
+                            
+                            <div class="ms_bot_row">
+                                
+                                <div class="ms_label">
+                                    3 app 
+                                </div>
+
+                                <h6>>></h6>
+
+                                <div class="ms_label round">
+                                    +
+                                </div>
+
+                                <div class="ms_label ext">
+                                    Boolean mobile app
+                                </div>
+
+                                <div class="ms_label ext">
+                                    Boolean web app
+                                </div>
+
+                                <div class="ms_label ext">
+                                    Boolean blog app
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="ms_top_content">
+
+                            <h6>Studenti online negli ultimi 30 minuti</h6>
+
+                            <h2>125</h2>
+
+                        </div>
+
+                    </div>
 
                     <!-- Bot Section -->
                     <div class="row me-0">
@@ -177,7 +227,6 @@
 
                 </div>
 
-            </div>
 
         </div>
 
