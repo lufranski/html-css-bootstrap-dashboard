@@ -82,9 +82,8 @@ a {
 
 
             .ms_dropbtn {
-                /* background-color: #4CAF50; */
+                background-color: #fff;
                 color: #ff8f00;
-                /* padding: 16px; */
                 font-size: 16px;
                 border: none;
                 cursor: pointer;
@@ -98,7 +97,6 @@ a {
             .ms_dropdown_content {
                 display: none;
                 position: absolute;
-                top: 30px;
                 right: 0;
                 background-color: #f9f9f9;
                 min-width: 160px;
@@ -229,7 +227,7 @@ a {
                 }
 
                 .ms_label:hover {
-                    background-color: #051e34;
+                    background-color: #104082;
                     cursor: pointer;
                 }
 
@@ -301,10 +299,7 @@ a {
         display: inline-block;
     }
 
-    .ms_dropdown {
-        display: flex;
-        justify-content: space-around;
-    }
+    
 
     /* Side Menu */
 
