@@ -151,17 +151,14 @@ a {
         height: 100%;
         width: 100%;
         padding-top: 1rem;
-        padding-left: 1rem;
+        padding-left: .5rem;
         position: relative;
     }
 
         .icon {
             display: flex;
-            /* DEBUG */
             width: 20px;
-            height: 5%;
-            /* margin-left: 35%; */
-            margin-bottom: 10%;
+            margin-bottom: 10px;
         }
 
             .icon a {
@@ -235,10 +232,10 @@ a {
 /* Bot Section Rules */
 
     
-
+/* 
         [class*="col"] {
             height: 100%;
-        }
+        } */
 
         .ms_sec {
             border: 1px solid #d8d8d8;
@@ -251,6 +248,10 @@ a {
 
         /* FAQ Section Rules */
 
+        .ms_sec.faq {
+            margin-top: .5rem;
+        }
+        
         .ms_row {
             display: flex;
             justify-content: space-between; 
@@ -266,7 +267,22 @@ a {
             border: 1px solid #d8d8d8;
             border-radius: 10px;
         }
+
+        /* Online Users Section */
         
+            .ms_check_container.users {
+                width: 800px;
+                padding: 10px;
+                margin: 30px auto;
+            }
+
+            .users img {
+                max-width: 750px;
+            }
+
+            .ms_users_row > a {
+                text-decoration: underline;
+            }
             
 /* Responsive */
 
@@ -330,4 +346,17 @@ a {
     .ms_label.ext {
         display: block;
     }
+
+    .ms_check_container.users {
+        width: 350px;
+    }
+
+    .users img {
+        max-width: 300px;
+    }
+
+    .ms_sec.faq {
+        margin-top: 30px;
+    }
+
 }
