@@ -142,16 +142,15 @@ a {
 
 #ms_side_menu {
     height: 100%;
-    width: 50px;
+    width: 80px;
     background-color: #051e34;
 }
 
     #ms_side_nav {
-        /* DEBUG */
         height: 100%;
-        width: 100%;
         padding-top: 1rem;
         padding-left: .5rem;
+        padding-right: .5rem;
         position: relative;
     }
 
@@ -229,13 +228,13 @@ a {
                     display: none;
                 }
 
+                .ms_label:hover {
+                    background-color: #051e34;
+                    cursor: pointer;
+                }
+
 /* Bot Section Rules */
 
-    
-/* 
-        [class*="col"] {
-            height: 100%;
-        } */
 
         .ms_sec {
             border: 1px solid #d8d8d8;
@@ -271,13 +270,13 @@ a {
         /* Online Users Section */
         
             .ms_check_container.users {
-                width: 800px;
+                width: 90%;
                 padding: 10px;
                 margin: 30px auto;
             }
 
             .users img {
-                max-width: 750px;
+                max-width: 100%;
             }
 
             .ms_users_row > a {
@@ -327,7 +326,7 @@ a {
     }
 
     .icon.bot {
-        right: 10px;
+        left: .5rem;
     }
 
     /* Main Content */
@@ -347,16 +346,34 @@ a {
         display: block;
     }
 
-    .ms_check_container.users {
-        width: 350px;
-    }
-
-    .users img {
-        max-width: 300px;
-    }
-
     .ms_sec.faq {
         margin-top: 30px;
+    }
+
+}
+
+@media screen and (max-width: 731px) {
+    
+    /* Table Rules */
+    th:nth-child(2) {
+        display: none;
+    }
+
+    td:nth-child(2) {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 631px) {
+    
+    /* Table Rules */
+    th:nth-child(3) {
+        display: none;
+    }
+
+    td:nth-child(3) {
+        display: none;
     }
 
 }
