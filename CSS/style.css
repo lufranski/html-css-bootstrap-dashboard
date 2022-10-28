@@ -244,7 +244,7 @@ a {
 /* Bot Section Rules */
 
     #ms_content > .row {
-        height: 80vh;
+        /* height: 80vh; */
     }
 
         [class*="col"] {
@@ -253,9 +253,13 @@ a {
 
         .ms_sec {
             /* DEBUG */
-            border: 1px dashed #000;
+            border: 1px solid #a3a2a2;
             border-radius: 10px;
-            height: 40%;
+            /* height: 40%; */
+        }
+
+        .ms_title {
+            border-bottom: 1px solid #a3a2a2;
         }
 
 
