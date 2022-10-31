@@ -243,6 +243,17 @@ a {
             border-bottom: 1px solid #d8d8d8;
         }
 
+        .rounded {
+            padding-left: 2px;
+            padding-right: 2px;
+            min-width: 70px;
+        }
+
+        .ms_large_head {
+            min-width: 50%;
+        }
+
+
         /* FAQ Section Rules */
 
         .ms_sec.faq {
